@@ -1,0 +1,12 @@
+int motorpin=9;
+void setup(){
+  pinMode(motorpin,OUTPUT);
+}
+void loop(){
+  digitalWrite(motorpin,HIGH);
+  delay(3000);
+  
+  digitalWrite(motorpin,LOW);
+  delay(3000);
+  
+}
